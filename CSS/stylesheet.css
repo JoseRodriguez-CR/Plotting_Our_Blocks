@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+}
+    /*padding: 10px;          -> Since i got white margin around the silver container
+    background-color: cyan;   -> I thought that body contains the container, here you 
+}                             -> can see a little test for it*/
+
+.container{
+    width: 100%;
+    height: 680px;
+    background-color: silver;
+    margin: 0px;
+    padding: 20px;
+    box-sizing: border-box;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.top-nav {
+    height: 150px;
+    width: 100%;
+    background-color: green;
+    box-sizing: border-box;
+    margin: 0px 0px 20px 0px;
+}
+.side-nav {
+    height: 300px;
+    width: 15%;
+    background-color: blue;
+    display: inline-block;
+    vertical-align: top;
+}
+.main {
+    height: 400px;
+    width: 81%;
+    margin: 0px 0px 0px 20px;
+    background-color: red;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    justify-content:space-evenly;
+}
+.sub-content {
+    height: 200px;
+    width: 210px;
+    margin: 20px;
+    background-color: yellow;
+    display:inline-block;
+}
+#advertisement {
+    height: 120px;
+    width: 95%;
+    background-color: purple;
+    margin: 20px 20px 20px 20px;
+    display: block;
+}
